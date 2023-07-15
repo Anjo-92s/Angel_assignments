@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .artwork {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+  }
+  .artwork-title {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  .artwork-description {
+    margin: 0;
+  }

@@ -1,0 +1,33 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input:required {
+    border-color: #ccc;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+
+  .error-message {
+    display: none;
+    margin-top: 5px;
+    color: red;
+  }
+  
+  input:invalid + .error-message {
+    display: block;
+  }
+  

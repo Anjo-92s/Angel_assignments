@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://images.pexels.com/photos/16011456/pexels-photo-16011456/free-photo-of-city-cars-road-streets.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #d5e462;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
